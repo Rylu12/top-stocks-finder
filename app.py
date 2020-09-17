@@ -39,7 +39,7 @@ def highlight_row(col):
     return ['background-color: #DAF6FA']*len(col) if (filter <=j and filter>=i) else ['background-color: white']*len(col)
 
 
-st.write('### Stocks Price Target from TipRanks.com (Updated: 2020-09-15)\n(Best used in full-screen mode by clicking top-right of table)')
+st.write('### Stocks Price Target from TipRanks.com (Updated: 2020-09-16)\n(Best used in full-screen mode by clicking top-right of table)')
 st.dataframe(tiprank_stock.style.apply(highlight_row, axis = 1).format({
     'Current Price':"{:.5}",
     'Low PT': "{:.5}",
