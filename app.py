@@ -49,4 +49,3 @@ st.dataframe(tiprank_stock.style.apply(highlight_row, axis = 1).format({
     }).set_properties(**{'text-align': 'right'}), width=None, height=600)
 
 st.info("This web app has been created by Ryan Lu. Feel free to visit http://www.rylu1.com to learn more about me and my other projects.", )
-@st.cache
