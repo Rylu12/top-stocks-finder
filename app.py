@@ -6,7 +6,7 @@ import numpy as np
 st.write("""
 # Top Stocks Finder
 
-The table of data below was collected by webscraping both TipRanks.com and Finviz.com
+The table of data below was collected by webscraping both http://www.TipRanks.com
 ### Features:
 
 The table can be sorted by specific column attributes (by clicking on the column names).
