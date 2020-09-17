@@ -16,7 +16,8 @@ Rows with specific value ranges can also be highlighted using the drop-down cate
 """)
 
 
-tiprank_stock = pd.read_csv('Stocks_TipRank_3000_2020-09-16.csv')
+read_stock = pd.read_csv('Stocks_TipRank_3000_2020-09-16.csv')
+tiprank_stock = read_stock.copy()
 #finviz_stock = stock_list.iloc[:,-2:].copy()
 
 st.write('### Select rows to highlight based on:')
@@ -27,7 +28,7 @@ max_range = int(max(tiprank_stock[column]))
 st.write('### Range of values to highlight:')
 (i,j) = st.slider('', 0, max_range, (0, 0))
 
-
+@st.cache
 def highlight_row(col):
     global i, j, column
 
