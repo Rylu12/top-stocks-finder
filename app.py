@@ -23,7 +23,7 @@ tiprank_stock = stock_list.iloc[:,0:-2].copy()
 finviz_stock = stock_list.iloc[:,-2:].copy()
 
 st.write('### Select rows to highlight based on:')
-column = st.selectbox('',('Current Price','Low PT','Average PT','High PT', 'LowPT/Curr%', 'AvgPT/Curr%', 'HighPT/Curr%', '# Analyst', 'Rating'))
+column = st.selectbox('',('Current Price','Low PT','Avg PT','High PT', 'LowPT/Curr%', 'AvgPT/Curr%', 'HighPT/Curr%', '# Analyst', 'Rating'))
 
 max_range = int(max(tiprank_stock[column]))
 
