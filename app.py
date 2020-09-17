@@ -16,7 +16,7 @@ Rows with specific value ranges can also be highlighted using the drop-down cate
 (Example: One may wish to sort stocks from with the highest 'AvgPT/Curr%' and highlighting stocks with overall 'Ratings' between 8 and 10.)
 """)
 
-
+@st.cache
 stock_list = pd.read_csv('Stocks_TipRank_3000_2020-09-16.csv')
 tiprank_stock = stock_list.iloc[:,0:-2].copy()
 finviz_stock = stock_list.iloc[:,-2:].copy()
