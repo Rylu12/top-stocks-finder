@@ -28,7 +28,6 @@ max_range = int(max(tiprank_stock[column]))
 st.write('### Range of values to highlight:')
 (i,j) = st.slider('', 0, max_range, (0, 0))
 
-@st.cache
 def highlight_row(col):
     global i, j, column
 
