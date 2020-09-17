@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-
+@st.cache
 st.write("""
 # Top Stocks Finder
 
@@ -17,7 +17,6 @@ Rows with specific value ranges can also be highlighted using the drop-down cate
 
 
 stock_list = pd.read_csv('Stocks_TipRank_3000_2020-09-16.csv')
-@st.cache
 tiprank_stock = stock_list.iloc[:,0:-2].copy()
 finviz_stock = stock_list.iloc[:,-2:].copy()
 
