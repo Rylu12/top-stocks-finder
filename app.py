@@ -2,9 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-#
-st.write("""
 
+st.write("""
 # Top Stocks Finder
 
 The table of data below was collected by webscraping both TipRanks.com and Finviz.com
