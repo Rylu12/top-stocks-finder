@@ -13,6 +13,9 @@ The table can be sorted by specific column attributes (by clicking on the column
 
 Rows with specific value ranges can also be highlighted using the drop-down category and slider bar.
 (Example: One may wish to sort stocks with the highest 'AvgPT/Curr%' and highlighting stocks with overall 'Ratings' between 8 and 10.)
+
+If the table is taking too long to load, you can view or download it on Google Sheets:
+https://docs.google.com/spreadsheets/d/1DJrxX8c1nFp-Mmg7e-7EdGb_acxqBrK5Owdm2m7z4SQ/edit?usp=sharing
 """)
 
 
