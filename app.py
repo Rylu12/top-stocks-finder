@@ -12,7 +12,7 @@ The table of data below was collected by webscraping http://www.TipRanks.com
 The table can be sorted by specific column attributes (by clicking on the column names).
 
 Rows with specific value ranges can also be highlighted using the drop-down category and slider bar.
-(Example: One may wish to sort stocks from with the highest 'AvgPT/Curr%' and highlighting stocks with overall 'Ratings' between 8 and 10.)
+(Example: One may wish to sort stocks with the highest 'AvgPT/Curr%' and highlighting stocks with overall 'Ratings' between 8 and 10.)
 """)
 
 
