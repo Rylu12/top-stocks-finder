@@ -19,7 +19,7 @@ https://docs.google.com/spreadsheets/d/1DJrxX8c1nFp-Mmg7e-7EdGb_acxqBrK5Owdm2m7z
 """)
 
 
-read_stock = pd.read_csv('Stocks_TipRank_3000_2020-09-16.csv')
+read_stock = pd.read_csv('Stocks800_2020-09-16.csv')
 tiprank_stock = read_stock.copy()
 #finviz_stock = stock_list.iloc[:,-2:].copy()
 
